@@ -4,8 +4,8 @@ title:  "First Blog"
 date:   2018-10-19
 desc: "First blog to record which kind content will be bloged"
 keywords: ""
-categories: [LIFE]
-tags: [LIFE]
+categories: [Life]
+tags: [life]
 icon: icon-life
 ---
 
