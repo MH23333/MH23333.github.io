@@ -3,4 +3,4 @@
 label: Ability
 id : cs
 aspects: NLP, ML/DL, Python, Tensorflow/Theano, Java, ElasticSearch, Seq2Seq/CNN
-percentage: 95, 85 85, 80, 60, 45, 90
+percentage: 95, 85, 85, 80, 60, 45, 90
