@@ -5,7 +5,7 @@ date:   2018-10-19
 desc: "First blog to record which kind content will be bloged"
 keywords: ""
 categories: [LIFE]
-tags: [LFIE]
+tags: [LIFE]
 icon: icon-life
 ---
 
