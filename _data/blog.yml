@@ -6,17 +6,14 @@
 - name: Python
   href: /python/
 
-- name: Linux
-  href: /linux/
+- name: Nlp
+  href: /nlp/
 
-- name: HTML
-  href: /html/
+- name: Leetcode
+  href: /leetcode/
 
-- name: Database
-  href: /database/
-
-- name: Mac
-  href: /mac/
+- name: Algorithm
+  href: /algorithm/
 
 - name: Life
   href: /life/
