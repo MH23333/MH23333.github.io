@@ -4,8 +4,8 @@ title:  "Attention mechanism in NLP"
 date:   2018-11-12
 desc: ""
 keywords: "Attention，Seq2Seq"
-categories: [Nlp]
-tags: [Nlp]
+categories: [NLP]
+tags: [NLP]
 icon: icon-nlp
 ---
 
@@ -16,7 +16,7 @@ Attention现在基本在所有NLP任务中都可以，感觉不用就不能发�
 # 1. 隐含变量attention
 在论文[Hierarchical Attention Networks for Document Classification](http://www.aclweb.org/anthology/N16-1174)
 中使用到了attention机制，模型结构图如下：
-![HAN model](../images/HAN.png 'HAN model')
+![HAN model](/images/HAN.png 'HAN model')
 
 
 使用的attention计算如下：
@@ -73,9 +73,13 @@ $\alpha$。这里的match一般有三种：
 中分别对应为：dot，concat，general
 
 现在常用的是TensorFlow中的BahdanauAttention，公式为：
+
 $$e_{ij}=a(s_{i-1},h_j)$$
+
 $$\alpha = \frac{exp(e_{ij})}{\sum_{k=1}^{T_x} exp(e_{ik})}$$
+
 $$c_i = \sum_{j=1}^{T_x} \alpha_{ij}h_j$$
+
 TensorFlow(bahdanau)实现的代码：
 ```
 def __call__(self, query, previous_alignments):

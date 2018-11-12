@@ -1,1 +1,1 @@
-This bolg template is copied from Japck.
+This bolg template is copied from jalpc.
