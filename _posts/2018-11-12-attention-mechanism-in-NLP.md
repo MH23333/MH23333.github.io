@@ -59,6 +59,7 @@ def attention(atten_inputs, atten_size):
 
       |   代码    |    公式   |
       |:--------:|:----------:|
+      
       |   v      |    $u_i$  |
       |alphas    | $\alpha_i$|
       |atten_outs|   $v$     |
