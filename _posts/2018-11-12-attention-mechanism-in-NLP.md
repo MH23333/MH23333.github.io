@@ -17,7 +17,11 @@ Attention现在基本在所有NLP任务中都可以，感觉不用就不能发�
 在论文[Hierarchical Attention Networks for Document Classification](http://www.aclweb.org/anthology/N16-1174)
 中使用到了attention机制，模型结构图如下：
 
-<div align='center'>![HAN model](/images/HAN.png 'HAN model')</div>
+<!-- ![HAN model](/images/HAN.png 'HAN model') -->
+<div style="align: center">
+<img src="https://mh23333.github.io/images/HAN.png"/>
+</div>
+
 
 
 使用的attention计算如下：
@@ -55,15 +59,13 @@ def attention(atten_inputs, atten_size):
     print("atten outs: "+str(atten_outs))
     return atten_outs, alphas
 ```
-上面的代码与公式的对应关系如下：<div align='center'>
+上面的代码与公式的对应关系如下：
 
 |   代码    |    公式    |
 |:--------:|:----------:|
 |   v      |    $u_i$   |
 |alphas    | $\alpha_i$ |
 |atten_outs|   $v$      |
-
-</div>
 
 # 2. Seq2Seq中的attention
 seq2seq中用到的attention，是一种query，output的模式。在decoder阶段，将每个$s_{t-1}$
