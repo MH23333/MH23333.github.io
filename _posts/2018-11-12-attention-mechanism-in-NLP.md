@@ -4,9 +4,9 @@ title:  "Attention mechanism in NLP"
 date:   2018-11-12
 desc: ""
 keywords: "Attention，Seq2Seq"
-categories: [NLP]
+categories: [Nlp]
 tags: [NLP]
-icon: icon-nlp
+icon: icon-NLP
 ---
 
 Attention现在基本在所有NLP任务中都可以，感觉不用就不能发论文了。。。
