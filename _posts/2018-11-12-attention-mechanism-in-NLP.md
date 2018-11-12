@@ -4,7 +4,7 @@ title:  "Attention mechanism in NLP"
 date:   2018-11-12
 desc: ""
 keywords: "Attention，Seq2Seq"
-categories: [Nlp]
+categories: [NLP]
 tags: [NLP]
 icon: icon-NLP
 ---
@@ -16,6 +16,7 @@ Attention现在基本在所有NLP任务中都可以，感觉不用就不能发�
 # 1. 隐含变量attention
 在论文[Hierarchical Attention Networks for Document Classification](http://www.aclweb.org/anthology/N16-1174)
 中使用到了attention机制，模型结构图如下：
+
 ![HAN model](/images/HAN.png 'HAN model')
 
 
