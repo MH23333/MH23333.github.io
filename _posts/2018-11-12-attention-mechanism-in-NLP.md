@@ -57,12 +57,11 @@ def attention(atten_inputs, atten_size):
 ```
 上面的代码与公式的对应关系如下：
 
-      |   代码    |    公式   |
-      |:--------:|:----------:|
-      
-      |   v      |    $u_i$  |
-      |alphas    | $\alpha_i$|
-      |atten_outs|   $v$     |
+|   代码    |    公式    |
+|:--------:|:----------:|
+|   v      |    $u_i$   |
+|alphas    | $\alpha_i$ |
+|atten_outs|   $v$      |
 
 # 2. Seq2Seq中的attention
 seq2seq中用到的attention，是一种query，output的模式。在decoder阶段，将每个$s_{t-1}$
