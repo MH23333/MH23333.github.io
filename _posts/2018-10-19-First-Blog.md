@@ -6,7 +6,7 @@ desc: "First blog to record which kind content will be bloged"
 keywords: ""
 categories: [Life]
 tags: [life]
-icon: icon-life
+icon: icon-spring
 ---
 
 # 在github上的第一篇博客
