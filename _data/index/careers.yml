@@ -7,10 +7,24 @@
     detail: Got master degree
     i18n: company_a_desc
   date:
-    detail: Jul, 2019
+    detail: Sep, 2016 - Jul, 2019
     i18n: company_a_date
   job:
     detail: Student
+    i18n: company_a_job
+  icon: fa-plus-square
+
+- name:
+    detail: 百度
+    i18n: company_a
+  desc:
+    detail: 算法工程师
+    i18n: company_a_desc
+  date:
+    detail: Jul, 2019 - Now
+    i18n: company_a_date
+  job:
+    detail: 算法工程师
     i18n: company_a_job
   icon: fa-plus-square
 
