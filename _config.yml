@@ -31,10 +31,13 @@ author:  # change following line to your infomation.
   desc: Matthew Hu, bachelor degree and master degree in XJTU.  # Describe yourself.
 
 # comment
-disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
-  name: MH23333
+# disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+#   name: MH23333
 
 # analytics
+## baidu analysis
+baidu-analysis: ef910b08267d6399e6514f38d54e4d09
+
 ## google analytics
 #ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
 #  id:
